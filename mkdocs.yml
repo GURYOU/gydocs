@@ -3,7 +3,7 @@
 # Run : mkdocs build
 
 # Project information
-site_name: YouDeal
+site_name: Documentazione
 site_author: GURYOU
 site_url: https://docs.guryou.com
 site_description: >-
@@ -41,25 +41,26 @@ theme:
     - search.suggest
     - toc.follow
 #     # - toc.integrate
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+#  palette:
+#    - scheme: slate
+#      primary: 
+#      accent: indigo
+#      toggle:
+#        icon: material/brightness-7
+#        name: Switch to dark mode
+#    - scheme: default
+#      primary: indigo
+#      accent: purple
+#      toggle:
+#        icon: material/brightness-4
+#        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
-  icon:
-    logo: logo
+  logo:    assets/logo.png
+  #icon:
+  #  logo: logo
   language: it
 
 
@@ -91,6 +92,9 @@ plugins:
 #  - icon: fontawesome/brands/linkedin
 #    link: https://www.linkedin.com/in/willettjames/
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -111,5 +115,8 @@ markdown_extensions:
 # Page tree
 nav:
   - Benvenuto: index.md
-  - Getting started:
-    - Installation: getting-started.md
+  - Comincia subito:
+    - Iscriviti: getting-started.md
+    - Completa il profilo: alternatives.md
+    - Lancia un Servizio: customization.md
+    - Lancia una Classe: philosophy.md
