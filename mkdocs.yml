@@ -1,34 +1,74 @@
-site_name: YouDeal Documentations
+# Run first this command : source venv/bin/activate 
+# Run : mkdocs serve
+# Run : mkdocs build
+
+# Project information
+site_name: YouDeal
+site_author: GURYOU
+site_url: https://docs.guryou.com
+site_description: >-
+  Documentations for the platform YouDeal for Wellness Business
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2023 GURYOU - TrantorMind s.r.l
+
+# Configuration
 theme: 
   name: material
+  #custom_dir: material/.overrides
   features:
-    - navigation.instant
-    #- navigation.tabs
-    #- navigation.tabs.sticky
-    - navigation.sections
-    - toc.follow
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
     - content.code.annotation
     - content.code.copy
-
-  language: it
-
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.prune
+    - navigation.sections
+  #  - navigation.tabs
+  #  - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+#     # - toc.integrate
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
+    - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+  language: it
+
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
 
 #extra:
 #  alternate:
@@ -38,13 +78,13 @@ theme:
 #    - name: Italiano
 #      link: /it/
 #      lang: it
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+#social:   
+#  - icon: fontawesome/brands/github-alt
+#    link: https://github.com/james-willett
+#  - icon: fontawesome/brands/twitter
+#    link: https://twitter.com/TheJamesWillett
+#  - icon: fontawesome/brands/linkedin
+#    link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -62,5 +102,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
-copyright: <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
