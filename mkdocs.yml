@@ -70,6 +70,11 @@ plugins:
   - minify:
       minify_html: true
 
+# Hooks
+# hooks:
+#  - material/.overrides/hooks/translations.py
+
+
 #extra:
 #  alternate:
 #    - name: English
@@ -102,3 +107,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Page tree
+nav:
+  - Benvenuto: index.md
+  - Getting started:
+    - Installation: getting-started.md
