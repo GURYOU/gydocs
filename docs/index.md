@@ -2,7 +2,7 @@
 
 Siamo felici di darvi il benvenuto sulla piattaforma GurYou, dedicata al mondo del wellness. Qui potrete trovare una vasta gamma di risorse per offrire ai vostri clienti un'esperienza unica nel mondo del wellness.
 
-## Cosa offriamo da oggi
+## Cosa offriamo da oggi ...
 
 * **Prenotazioni, Corsi e Eventi a Calendario**: Abbiamo una vasta selezione di meditazioni guidate, adatte sia a principianti che a praticanti esperti. Offrite ai vostri clienti la possibilità di rilassarsi e concentrarsi con le nostre guide alla meditazione.
 
