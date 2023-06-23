@@ -116,7 +116,7 @@ markdown_extensions:
 nav:
   - Benvenuto: index.md
   - Comincia subito:
-    - Iscriviti: getting-started.md
-    - Completa il profilo: alternatives.md
-    - Lancia un Servizio: customization.md
-    - Lancia una Classe: philosophy.md
+    - Tour dettagliato: tour.md
+ #   - Completa il profilo: alternatives.md
+ #   - Lancia un Servizio: customization.md
+ #   - Lancia una Classe: philosophy.md
