@@ -117,6 +117,6 @@ nav:
   - Benvenuto: index.md
   - Comincia subito:
     - Tour dettagliato: tour.md
- #   - Completa il profilo: alternatives.md
+    - Completa il profilo: configurazion-profile.md
  #   - Lancia un Servizio: customization.md
  #   - Lancia una Classe: philosophy.md
