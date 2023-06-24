@@ -115,8 +115,8 @@ markdown_extensions:
 # Page tree
 nav:
   - Benvenuto: index.md
+  - Tour dettagliato: tour.md
   - Comincia subito:
-    - Tour dettagliato: tour.md
-    - Completa il profilo: configuration-profile.md
+    - Completa il tuo profilo: configuration-profile.md
  #   - Lancia un Servizio: customization.md
  #   - Lancia una Classe: philosophy.md
