@@ -108,15 +108,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  
 
 # Page tree
 nav:
   - Benvenuto: index.md
-  - Tour dettagliato: tour.md
   - Comincia subito:
+    - Tour dettagliato: tour.md
     - Completa il tuo profilo: configuration-profile.md
  #   - Lancia un Servizio: customization.md
  #   - Lancia una Classe: philosophy.md
