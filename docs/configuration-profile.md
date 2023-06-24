@@ -7,13 +7,15 @@ Se hai già ricevuto la conferma della registrazione, puoi configurare il tuo pr
 
 - Accedi al tuo account e inserisci le credenziali.
 - Clicca su "Profilo Business" e completa "Informazioni generali" e "Orario di apertura".
-[img]
+
+[Profilo Business]: ../assets/images/profile-business.jpeg
+
 - Aggiungi foto in "Galleria immagini".
 - Vai su "Personale" per aggiungere eventuali collaboratori e i loro orari di lavoro.
 - Vai su “Catalogo” e aggiungi i tuoi "Servizi", "Corsi" ed "Eventi". Ricordati, il cliente prenota sulla base della tua disponibilità impostata.
 
 Quando hai completato del tuo profilo, torna su  “Profilo business” -  "Informazioni generali", metti il flag su “Pubblica online” e salva.
 
-[Configura il tuo profilo ora] (https://youdeal.guryou.com/login).
+[Accedi e Configura il tuo profilo ora] (https://youdeal.guryou.com/login).
 
 Complimenti, il tuo profilo è visibile ai tuoi clienti su YouFeel! :tada:
