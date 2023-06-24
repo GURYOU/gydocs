@@ -8,7 +8,13 @@ Se hai già ricevuto la conferma della registrazione, puoi configurare il tuo pr
 - Accedi al tuo account e inserisci le credenziali.
 - Clicca su "Profilo Business" e completa "Informazioni generali" e "Orario di apertura".
 
-[Profilo Business](../assets/images/profile-business.jpeg)
+<div class="result" markdown>
+
+![[Profilo Business]]{ width="300" }
+
+</div>
+
+[Profilo Business]: ../assets/images/profile-business
 
 - Aggiungi foto in "Galleria immagini".
 - Vai su "Personale" per aggiungere eventuali collaboratori e i loro orari di lavoro.
