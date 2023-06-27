@@ -1,5 +1,3 @@
- Configura il tuo profilo
-
 Se hai già ricevuto la conferma della registrazione, puoi configurare il tuo profilo.
 
 ## Ecco come procedere 
